@@ -1,0 +1,252 @@
+.mainmenu {
+    margin-left: 2.2rem;
+}
+
+.acctset a, .parentsidebar a, #dashboard a {
+    height: 100%;
+    display: inline-block;
+    line-height: 1;
+    color: var(--menu-font-color) !important;
+}
+
+a.idealCard {
+    color: var(--links-color) !important;
+}
+
+.msgsender a, .msgtitle a {
+    color: var(--font-color) !important
+}
+
+#dashboard a, .acctset a {
+    width: 100%;
+}
+
+#alli li:not(.subMenu li) {
+    list-style: none !important;
+}
+
+#tajudeen .container-fluid {
+    padding-left: 0px;
+}
+
+.sidebar {
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+}
+
+.sidebar nav>ul>li {
+    padding: 0.5rem;
+    margin: 0.4rem;
+    cursor: pointer;
+    position: relative;
+    border-radius: 4px;
+    min-height: 44px;
+    background: var(--menu-background-color) !important;
+    color: var(--menu-font-color);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.rotate180 {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+.sidebar nav>ul>li span i {
+    position: absolute;
+    right: 0;
+    top: 0.7rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.sidebar nav>ul>li span i.icons {
+    position: absolute;
+    left: 0;
+    top: 0.7rem;
+    /*font-size: 1.5rem;*/
+    font-size: 1.8rem;
+    margin-top: -4px;
+}
+
+.sidebar ul.subMenu {
+    display: none;
+    transition: all 0.8s;
+}
+
+.sidebar ul.subMenu li {
+    border-bottom: dashed 1px #ccc;
+    margin-bottom: 0.5rem;
+    opacity: .8;
+    font-weight: 300;
+}
+
+.sidebar ul.subMenu li:hover {
+    opacity: 1;
+}
+
+ul.subMenu {
+    margin-top: 5px;
+    padding-top: 10px;
+    border-top: 2px solid white;
+    margin-left: 2.625rem;
+    font-style: italic;
+}
+
+ul.subMenu a {
+    color: var(--dropdown-menu-bg-color) !important;
+    display: block;
+}
+
+i.bx.icons:before {
+    padding: 3px;
+}
+
+.singleSideBar.openSider i.bx.icons:before {
+    background: transparent !important;
+}
+
+.singleSideBar.openSider .backArrow {
+    display: block !important;
+}
+
+.sidebar nav ul {
+    padding-left: 0;
+    list-style-type: disc;
+}
+
+#frontoffice:hover .subMenu.frontoffice, #feescollection:hover .subMenu.feescollection {
+    top: 0;
+}
+
+#registrar:hover .subMenu.registrar {
+    top: -117px;
+}
+
+.sidebar ul.subMenu.registrar:before {
+    top: 121px;
+}
+
+#reportcard:hover .subMenu.reportcard, #setup:hover .subMenu.setup {
+    bottom: 0;
+}
+
+.sidebar ul.subMenu.reportcard:before, .sidebar ul.subMenu.setup:before {
+    top: unset;
+    bottom: 3px;
+}
+
+.sidebar ul.subMenu.setup .sidebar ul.subMenu.reportcard, .sidebar ul.subMenu.setup {
+    bottom: 0;
+}
+
+#subjectmarks:hover .subMenu.subjectmarks {
+    top: -148px;
+}
+
+.sidebar ul.subMenu.subjectmarks:before {
+    top: 153px;
+}
+
+/*IF YOU WANT TO USE ANIMATED STRIPES*/
+
+/*<div class="custom-box">
+    <span id="so_Period"></span>
+    <span id="so_Time"></span>
+    <span id="so_Subject"></span>
+    <span id="so_Class"></span>
+    <span id="so_Teacher"></span>
+</div>*/
+
+.custom-box #so_Period {
+    height: 1.4rem;
+    width: 4.375rem
+}
+
+.custom-box #so_Time {
+    height: 1.4rem;
+    width: 12.5rem
+}
+
+.custom-box #so_Subject {
+    height: 1.4rem;
+    width: 13.75rem
+}
+
+.custom-box #so_Class {
+    height: 1.4rem;
+    width: 11.8rem
+}
+
+.custom-box #so_Teacher {
+    height: 1.4rem;
+    width: 11.25rem
+}
+
+.custom-box [id^="so_"] {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Create the animated stripes */
+
+.custom-box [id^="so_"]::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: repeating-linear-gradient( 45deg, rgba(255, 255, 255, 0.2) 0px, rgba(255, 255, 255, 0.2) 10px, transparent 10px, transparent 20px);
+    animation: stripesMove 1s linear infinite;
+}
+
+/* Stripes animation */
+
+@keyframes stripesMove {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-20px);
+    }
+}
+
+/*#pbrecord_wrapper, #complaintrecord_wrapper,
+
+#vbrecord_wrapper {
+
+    padding: 1rem;
+
+    background: #fff;
+
+    border-radius: 4px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+    border-top: 5px solid black;
+
+}
+
+#pbrecord_wrapper i, #complaintrecord_wrapper i,
+
+#vbrecord_wrapper i {
+
+    font-size: 1.5rem;
+
+    cursor: pointer;
+
+}*/
+
+/*
+
+i.bx.bxs-chevrons-right {
+
+    color: green;
+
+}
+
+i.bx.bxs-edit-alt {
+
+    color: blue;
+
+}*/
