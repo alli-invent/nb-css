@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pagination {
+    align-items: center;
+    margin-top: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.toolbar {
+    margin-top: 3px;
+    margin-bottom: 0.6rem;
+}
+
+span#pageNumbers {
+    margin-right: 5px;
+    min-width: 100px;
+    text-align: center;
+}
+
+select#rowsPerPage {
+    width: 119px;
+}
