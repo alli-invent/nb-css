@@ -1,0 +1,77 @@
+.nav-container {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-wrapper, .schoolBrand {
+    display: flex;
+}
+
+.nav-wrapper {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.schoolBrand i {
+    font-size: 2.6rem;
+    vertical-align: middle;
+    margin-right: 1rem;
+    cursor: pointer;
+    color: var(--font-color);
+}
+
+.schoolBrand {
+    font-size: 1.3rem;
+}
+
+#dashing-board li#message_center {
+    position: relative;
+}
+
+#dashing-board li#message_center a#notifytab {
+    position: absolute;
+    /*    display: none;*/
+}
+
+#dashing-board li#message_center .new {
+    top: -12px !important;
+    right: -33px;
+}
+
+.header-icons i {
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    color: var(--font-color);
+    cursor: pointer;
+    position: relative;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons>span:first-of-type {
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.new {
+    width: 25px;
+    height: 25px;
+    background: var(--remove-button);
+    border-radius: 50%;
+    color: var(--menu-font-color);
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -13px;
+    right: -10px;
+}
