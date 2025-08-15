@@ -1,0 +1,54 @@
+
+
+:root {
+
+	--background-color: #f5f5dc;
+
+	--background-color2: #d5dae8;
+
+	--event-background-color: #f0f8ff;
+
+	--right-main-area-bg-color: #e0e0e0;
+
+	--font-color: #003366;
+
+	--call-to-action-bg-color: #0077b6;
+
+/*	--links-color: #add8e6;*/
+
+	--links-color: #dc143c;
+
+	--menu-background-color: #0077b6;
+
+	--menu-font-color: #f5f5dc;
+
+	--border-color: #003366;
+
+	--dropdown-menu-bg-color: #f5f5dc;
+
+	--table-bg-color: #0077b6;
+
+	/*	constant*/
+
+	--add-new-button: #5f9ea0;
+
+	--remove-button: #a52a2a;
+
+	--pay-button: #ffc107;
+
+}
+
+
+
+/*Ocean Blue and Sandy Beige:*/
+
+/*Ocean Blue (#0077b6)
+
+Sandy Beige (#f5f5dc)
+
+Deep Blue (#003366)
+
+Light Blue (#add8e6)
+
+Light Beige (#f5f5f5)*/
+
