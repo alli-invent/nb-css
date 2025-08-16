@@ -1,0 +1,31 @@
+:root {
+    --background-color: #fff5e6;
+    --background-color2: #ffe0b2;
+    --event-background-color: #fff3cd;
+    --right-main-area-bg-color: #f3e5f5;
+
+    --font-color: #4a148c;
+    --call-to-action-bg-color: #ff7043;
+
+    --links-color: #d84315;
+
+    --menu-background-color: #6a1b9a;
+    --menu-font-color: #fff5e6;
+
+    --border-color: #4a148c;
+
+    --dropdown-menu-bg-color: #fff5e6;
+    --table-bg-color: #ff7043;
+
+    /* constant */
+    --add-new-button: #ff8a65;
+    --remove-button: #c62828;
+    --pay-button: #ffca28;
+}
+
+/* Sunset Theme:
+   Bright Orange (#ff7043)
+   Deep Purple (#6a1b9a)
+   Burnt Red (#d84315)
+   Soft Yellow (#ffca28)
+   Light Peach (#fff5e6) */
