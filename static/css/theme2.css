@@ -1,0 +1,31 @@
+:root {
+    --background-color: #f0f5f1;
+    --background-color2: #d9e2d5;
+    --event-background-color: #eaf3ea;
+    --right-main-area-bg-color: #e6e1d3;
+
+    --font-color: #2f4f4f;
+    --call-to-action-bg-color: #228b22;
+
+    --links-color: #006400;
+
+    --menu-background-color: #556b2f;
+    --menu-font-color: #f0f5f1;
+
+    --border-color: #2f4f4f;
+
+    --dropdown-menu-bg-color: #f0f5f1;
+    --table-bg-color: #228b22;
+
+    /* constant */
+    --add-new-button: #8fbc8f;
+    --remove-button: #8b4513;
+    --pay-button: #daa520;
+}
+
+/* Forest Theme:
+   Deep Forest Green (#228b22)
+   Olive (#556b2f)
+   Earth Brown (#8b4513)
+   Golden Grass (#daa520)
+   Soft Beige-Green (#f0f5f1) */
