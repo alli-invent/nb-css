@@ -1,0 +1,32 @@
+:root {
+    --background-color: #f4f6f8;
+    --background-color2: #e0e0e0;
+    --event-background-color: #f9f9f9;
+    --right-main-area-bg-color: #dfe6e9;
+
+    --font-color: #2c3e50;
+    --call-to-action-bg-color: #009688;
+
+    --links-color: #00695c;
+
+    --menu-background-color: #37474f;
+    --menu-font-color: #f4f6f8;
+
+    --border-color: #2c3e50;
+
+    --dropdown-menu-bg-color: #f4f6f8;
+    --table-bg-color: #009688;
+
+    /* constant */
+    --add-new-button: #26a69a;
+    --remove-button: #c62828;
+    --pay-button: #ffb300;
+}
+
+/* Cool Gray & Teal Theme:
+   Main Teal (#009688)
+   Dark Slate Gray (#37474f)
+   Deep Blue-Gray (#2c3e50)
+   Light Gray (#f4f6f8)
+   Accent Mint (#26a69a)
+   Highlight Amber (#ffb300) */
